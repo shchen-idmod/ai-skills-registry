@@ -4,3 +4,4 @@ requests>=2.31
 pyyaml>=6.0
 anthropic
 Office365-REST-Python-Client
+requests
