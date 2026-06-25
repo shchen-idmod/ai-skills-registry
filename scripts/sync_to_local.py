@@ -165,6 +165,9 @@ def extract_team_from_marketplace(marketplace: dict) -> str:
 
 
 # ── Path Helpers (fallback if no marketplace.json) ───────────────────────────
+# Expected repo structure for path-based extraction:
+#   groups/<team-name>/skills/<category-name>/<skill-name>/SKILL.md
+#   foundation-wide/skills/<category-name>/<skill-name>/SKILL.md
 
 def extract_team_from_path(skill_path: str) -> str:
     parts = Path(skill_path).parts
