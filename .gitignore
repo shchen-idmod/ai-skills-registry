@@ -1,0 +1,14 @@
+# Never commit secrets
+.env
+
+# Claude Code personal settings
+.claude/settings.local.json
+
+# Local skill registry output
+skill-registry/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.idea/

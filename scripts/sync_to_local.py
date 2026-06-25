@@ -7,9 +7,9 @@ Each skill becomes a short catalog document with metadata and install instructio
 The actual skill content stays in the source repo — SharePoint is for discovery only.
 
 Usage:
-    python scripts/sync_to_local.py --repo InstituteforDiseaseModeling/idmtools
-    python scripts/sync_to_local.py --repo InstituteforDiseaseModeling/idmtools --output ./skill-registry
-    python scripts/sync_to_local.py --repo InstituteforDiseaseModeling/idmtools --clean
+    python scripts/sync_to_local.py --repo InstituteforDiseaseModeling/idm_standards
+    python scripts/sync_to_local.py --repo InstituteforDiseaseModeling/idm_standards --output ./skill-registry
+    python scripts/sync_to_local.py --repo InstituteforDiseaseModeling/idm_standards --clean
 
 Required:
     --repo    GitHub repo in the format <org>/<repo>
