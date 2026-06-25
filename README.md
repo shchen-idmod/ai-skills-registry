@@ -20,7 +20,7 @@ cp .env.example .env
 
 ## Finding Skills
 
-### Browse on SharePoint
+### Option A: Browse on SharePoint
 
 1. Go to [AI Skills Registry](https://bmgf.sharepoint.com/sites/AISkillsRegistry)
 2. Open the **Skill Registry** document library
@@ -28,7 +28,7 @@ cp .env.example .env
 
 You can also search within the library using SharePoint's search bar. Filter by keyword, team, or category.
 
-### Ask Claude Code
+### Option B: Ask Claude Code
 
 If you have the Microsoft 365 MCP connector configured, you can ask Claude Code directly:
 
