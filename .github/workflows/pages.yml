@@ -3,6 +3,10 @@ name: Deploy skill catalog to GitHub Pages
 on:
   push:
     branches: [main]
+    paths:
+      - 'publish/**'
+      - 'scripts/scan_repo_skills.py'
+
   workflow_dispatch:
 
 permissions:

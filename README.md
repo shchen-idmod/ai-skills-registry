@@ -28,7 +28,15 @@ cp .env.example .env
 
 You can also search within the library using SharePoint's search bar. Filter by keyword, team, or category.
 
-### Option B: Ask Claude Code
+### Option B: Browse the Skills Catalog Page
+
+Visit the hosted skills catalog — a searchable, filterable page with install instructions for every skill:
+
+**[AI Skills Registry — Skills Catalog](https://gatesfoundation.github.io/ai-skills-registry/)**
+
+No login required. Use the search bar to filter by name, description, team, or category. Each card shows the skill's description and the exact commands to install it.
+
+### Option C: Ask Claude Code
 
 This requires the **Microsoft 365 MCP connector** in Claude Code. Set it up once:
 
@@ -52,11 +60,6 @@ Once connected, you can ask Claude Code directly:
 ```
 List all skills on SharePoint
 ```
-```
-List all skills on the Skill Registry SharePoint
-```
-
-To get full details and installation instructions for a specific skill:
 ```
 Show me the skill card for audit-code
 ```
