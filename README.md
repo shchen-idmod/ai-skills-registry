@@ -30,7 +30,24 @@ You can also search within the library using SharePoint's search bar. Filter by 
 
 ### Option B: Ask Claude Code
 
-If you have the Microsoft 365 MCP connector configured, you can ask Claude Code directly:
+This requires the **Microsoft 365 MCP connector** in Claude Code. Set it up once:
+
+1. Add this to your Claude Code settings at `~/.claude/settings.json`:
+
+```json
+{
+  "mcpServers": {
+    "Microsoft_365": {
+      "type": "mcp-remote",
+      "url": "https://mcp.claude.ai/mcp/connectors/microsoft-365"
+    }
+  }
+}
+```
+
+2. Open Claude Code — it will prompt you to sign in with your GF Microsoft account the first time.
+
+Once connected, you can ask Claude Code directly:
 
 ```
 List all skills on SharePoint
